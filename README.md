@@ -9,6 +9,6 @@ is installed on your machine run the following sequence of commands.
 
 ```
 virtualenv venv
-. venv/bin/activate`
+. venv/bin/activate
 pip install -r requirements.txt
 ```
