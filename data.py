@@ -38,6 +38,8 @@ def load_df():
     # Drop the previous class label
     df.drop('label', axis=1, inplace=True)
     
+    df = df[df['native-country'] != 'Holand-Netherlands']
+    
     return df
     
 
